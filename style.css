@@ -49,10 +49,11 @@ body {
     display: flex;
     justify-content: space-around;
    }
+
    .red{
     background-color: red;
    }
-   
+
    
    .show-lists{
     background-color: #ffffff;
@@ -84,6 +85,7 @@ body {
    .list-status{
     width: 230px;
    }
+   
    .hidden{
     display:none
    }
