@@ -6,14 +6,17 @@ window.addEventListener('load', function(){
 const pullDownButton = document.getElementById("lists");
 
 pullDownButton.addEventListener('mouseover',function(){
-    console.log('乗る')
+    pullDownButton.setAttribute("style", "background-color:blue;")
+    console.log('乗ったときは青色')
 })
 
 pullDownButton.addEventListener('mouseout',function(){
-    console.log('外れる')
+    pullDownButton.removeAttribute("style", "background-color:blue;")
+    console.log('外れた時は赤色')
 })
 
 pullDownButton.addEventListener('click',function(){
-    console.log('クリック')
+    pullDownButton.setAttribute("style", "background-color:green;")
+    console.log('クリック時は緑色')
 })
 
